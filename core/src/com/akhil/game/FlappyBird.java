@@ -90,8 +90,8 @@ Music over; // game over music
 		top=new Texture("toptube.png");
 		birds=new Texture[2];
 		distanceBetweenTubes=Gdx.graphics.getWidth()/2;
-		birds[0]=new Texture("bird3.png");
-		birds[1]=new Texture("bird3.png");
+		birds[0]=new Texture("bird.png");
+		birds[1]=new Texture("bird2.png");
 
 		maxTubeOffset=Gdx.graphics.getHeight()/2-gap/2-100;
 		random=new Random();
